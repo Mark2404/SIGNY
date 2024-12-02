@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+nav .marks-nav-links {
+  display: flex;
+  gap: 36px;
+}
+
+.show {
+  background-color: none;
+}
+
+.dropdown .dropdown-toggle {
+  background-color: transparent;
+}
+.dropdown .btn {
+  background-color: white;
+}/*# sourceMappingURL=main_page.css.map */
