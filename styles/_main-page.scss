@@ -89,3 +89,116 @@ nav {
         color: #fff;
     }
 }
+
+.carousel-inner {
+    width: 100%;
+    height: 100vh;
+}
+
+.pages-in-carusel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .heder-sec-text {
+        display: flex;
+        margin-top: 50px;
+
+        ._text {
+            width: 40%;
+
+            h1 {
+                font-family: var(--font3);
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 114%;
+                color: rgba(6, 18, 36, 0.9);
+            }
+
+            h5 {
+                font-family: var(--font-family);
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 130%;
+
+                color: rgba(6, 18, 36, 0.9);
+
+
+            }
+
+
+
+        }
+
+        .heder-sec-text-items-counter {
+            display: flex;
+        }
+
+
+        .bro {
+            width: 70%;
+        }
+
+
+
+    }
+}
+
+.header-text-btn {
+    border-radius: 45px;
+    padding: 17px 32px;
+    width: 300px;
+    height: 56px;
+    background: #1064e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+
+}
+
+.textning {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: rgba(6, 18, 36, 0.9);
+
+}
+
+.heder-sec-text-items-counter {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+
+    .middle-line {
+        height: 1.50px;
+        width: 40px;
+        background-color: #1064e5;
+    }
+
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 130%;
+        letter-spacing: 0.04em;
+        text-align: center;
+        color: #061224;
+
+    }
+
+    #active-counter {}
+}
