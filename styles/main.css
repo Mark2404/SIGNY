@@ -167,6 +167,7 @@ nav .dropdown {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-bottom: 40px;
 }
 #plus-sec .plus {
   display: flex;
@@ -188,6 +189,51 @@ nav .dropdown {
   letter-spacing: 0.04em;
   color: rgba(6, 18, 36, 0.9);
   width: 75%;
+}
+
+.screenshots-sec {
+  background-color: #d8f1f0;
+  padding: 20px 0;
+}
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+.screen .screen-text h1 {
+  font-family: var(--font3);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  color: rgba(6, 18, 36, 0.9);
+}
+.screen .screen-text p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  color: rgba(6, 18, 36, 0.9);
+}
+.screen .screen-text button {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 171%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(6, 18, 36, 0.9);
+  width: 217px;
+  height: 56px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #1064e5;
+}
+.screen .screen-text .second-btn {
+  background-color: #1064e5;
+  color: #fff;
 }
 
 body {
