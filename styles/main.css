@@ -4,6 +4,16 @@ header {
   height: auto;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -216,6 +226,7 @@ nav .dropdown {
   font-size: 18px;
   line-height: 156%;
   color: rgba(6, 18, 36, 0.9);
+  margin-bottom: 15px;
 }
 .screen .screen-text button {
   font-family: var(--font-family);
@@ -234,6 +245,75 @@ nav .dropdown {
 .screen .screen-text .second-btn {
   background-color: #1064e5;
   color: #fff;
+}
+
+.price-sec {
+  padding: 20px 0;
+}
+.price-sec h1 {
+  text-align: center;
+}
+.price-sec .price {
+  border-radius: 4px;
+  width: 256px;
+  height: 320px;
+  background-color: #deeefc;
+  padding: 32px;
+}
+.price-sec .price h5 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 143%;
+  color: rgba(6, 18, 36, 0.9);
+  margin-bottom: 40px;
+}
+.price-sec .price p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(6, 18, 36, 0.9);
+}
+.price-sec .price .price-num {
+  margin-bottom: 30px;
+}
+.price-sec .price .price-num h3 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  color: rgba(6, 18, 36, 0.9);
+}
+.price-sec .price .price-num p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgba(6, 18, 36, 0.9);
+}
+.price-sec .price button {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ebf5f6;
+  border-radius: 100px;
+  width: 192px;
+  height: 40px;
+  background-color: #1064e5;
+  border: none;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
 }
 
 body {
