@@ -246,7 +246,7 @@ nav {
     background-color: #d8f1f0;
     padding: 20px 0;
 
-    .screen-sec {}
+
 }
 
 .screen {
@@ -375,4 +375,52 @@ nav {
     justify-content: center;
     gap: 30px;
     margin-top: 50px;
+}
+
+.results-sec {
+    background-color: #d8f1f0;
+    padding: 20px 0;
+
+}
+
+.results-sec-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px 0;
+
+    text-align: center;
+
+    h1 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 73px;
+        line-height: 66%;
+        text-align: center;
+        color: rgba(6, 18, 36, 0.9);
+    }
+
+    h2 {
+        font-family: var(--font3);
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 120%;
+        text-align: center;
+        color: rgba(6, 18, 36, 0.9);
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        text-align: center;
+        color: rgba(6, 18, 36, 0.9);
+        width: 45%;
+    }
+
+
 }
