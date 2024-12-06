@@ -1,0 +1,90 @@
+header {
+  height: auto;
+  padding: 20px 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+nav a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(6, 18, 36, 0.9);
+  text-decoration: none;
+}
+nav .marks-nav-links {
+  display: flex;
+  gap: 36px;
+}
+nav .dropdown {
+  background-color: transparent;
+  border: none;
+}
+
+.show {
+  background-color: none;
+}
+
+.dropdown .dropdown-toggle {
+  background-color: transparent;
+}
+.dropdown .btn {
+  background-color: white;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 20px;
+}
+.nav-buttons button:nth-child(1) {
+  border: 1.5px solid #1064e5;
+  border-radius: 43px;
+  padding: 11px 32px;
+  width: 110px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-buttons button:nth-child(2) {
+  border-radius: 45px;
+  padding: 11px 32px;
+  width: 189px;
+  height: 40px;
+  background: #1064e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 14 0px;
+  margin: 0 auto;
+}/*# sourceMappingURL=video.css.map */
