@@ -476,6 +476,33 @@ nav .dropdown {
   background-color: #deeefc;
 }
 
+.accardion {
+  padding: 20px 0;
+}
+.accardion h1 {
+  font-family: var(--font3);
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: rgba(6, 18, 36, 0.9);
+  margin-bottom: 40px;
+}
+
+.accordion-button {
+  border: none;
+  background-color: transparent;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  color: rgba(6, 18, 36, 0.9);
+}
+
+.collapsed {
+  border: none;
+}
+
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
