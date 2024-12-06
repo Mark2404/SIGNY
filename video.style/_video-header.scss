@@ -1,7 +1,7 @@
 header {
    
     height: auto;
-     padding: 20px  50px;
+    padding: 2% 5%;
 
 }
 
@@ -68,6 +68,11 @@ nav {
         display: flex;
         align-items: center;
         justify-content: center;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
     }
 
     button:nth-child(2) {
@@ -88,5 +93,12 @@ nav {
         text-transform: uppercase;
         text-align: center;
         color: #fff;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
     }
+
+ 
 }
