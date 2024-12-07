@@ -570,6 +570,64 @@ nav .dropdown {
   outline: none;
 }
 
+footer {
+  background: #061224;
+}
+
+.footer {
+  display: flex;
+  gap: 150px;
+  padding: 20px 0;
+  justify-content: center;
+}
+.footer .col-row1 img {
+  margin-bottom: 100px;
+}
+.footer a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+}
+.footer P {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 200%;
+  color: #fff;
+  opacity: 0.4;
+}
+.footer .col-row2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .col-row3 div {
+  margin-bottom: 100px;
+}
+.footer .col-row4 address {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+  opacity: 0.8;
+}
+.footer .col-row4 a {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #fff;
+  opacity: 0.8;
+}
+.footer .col-row4 div {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
