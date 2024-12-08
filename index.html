@@ -16,18 +16,18 @@
             <img src="./assets/main/icons/logo_signy.svg" alt="" />
             <img class="hamburger" src="./assets/main/icons/nav-gamburger.svg" alt="">
             <div class="marks-nav-links">
-                <select class="dropdown" id="dropdown" name="options">
+                <select class="dropdown" id="dropdown1" name="options" onchange="navigate(this)">
                     <option value="" disabled selected>0 800 750 643</option>
-                    <option value="./pages/Blog.html">Blog</option>
-                    <option value="page2.html">Video</option>
+                    <option value=" ./pages/Blog.html">Blog</option>
+                    <option value="./pages/video.html">Video</option>
                 </select>
-                <select class="dropdown" id="dropdown" name="options">
+                <select class="dropdown" id="dropdown2" name="options" onchange="navigate(this)">
                     <option value="" disabled selected>ПРО НАС</option>
-                    <option value="./pages/Blog.html">Blog</option>
-                    <option value="page2.html">Video</option>
+                    <option value=" ./pages/Blog.html">Blog</option>
+                    <option value="./pages/faq.html">Faq</option>
                 </select>
                 <a href="#">ЦЕНЫ</a>
-                <a href="#">КОНТАКТЫ</a>
+                <a href="./pages/contacts.html">КОНТАКТЫ</a>
             </div>
             <div class="nav-buttons">
                 <button>Вход</button>
@@ -341,7 +341,7 @@
     </div>
     <div class="Video-sec">
         <h1>Познакомимся в живую? </h1>
-        <a href="#">
+        <a href="./pages/video.html">
             <img src="./assets/main/imgs/video.svg" alt="">
         </a>
     </div>
@@ -423,7 +423,7 @@
 
                 <div class="col-row2">
                     <div class="d-flex flex-column">
-                        <a href="#">Про нас</a>
+                        <a href="./index.html">Про нас</a>
                         <a href="#">Цены</a>
 
                     </div>
@@ -436,8 +436,8 @@
                 </div>
                 <div class="col-row3">
                     <div>
-                        <a href="#">Блог</a>
-                        <a href="#">КОНТАКТЫ</a>
+                        <a href="./pages/Blog.html">Блог</a>
+                        <a href="./pages/contacts.html">КОНТАКТЫ</a>
                     </div>
                     <p>Безпекасервісу</p>
                 </div>
@@ -496,6 +496,15 @@
             });
         });
 
+    </script>
+    <script>
+
+        function navigate(dropdown) {
+            const url = dropdown.value;
+            if (url) {
+                window.location.href = url;
+            }
+        }
     </script>
 </body>
 
