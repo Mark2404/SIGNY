@@ -181,6 +181,10 @@ button:hover {
     transition: background 0.3s ease;
 }
 
+a:hover {
+    color: #1064e5;
+    transition: color 0.3s ease;
+}
 
 .textning {
     font-family: var(--font-family);
