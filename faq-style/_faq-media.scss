@@ -1,0 +1,153 @@
+
+
+@media(max-width: 768px) {
+
+
+    .container {
+        max-width: 768px ;
+        margin: 0 auto;
+      
+    }
+
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+
+
+        .header-nav {
+            display: flex;
+         align-items: center;
+        justify-content: space-between;
+        gap: 510px;
+       
+       
+            
+
+       
+        }
+        .marks-nav-links {
+            display: none;
+        }
+
+
+        .nav-buttons {
+            display: none;
+        }
+ 
+
+    }
+    .header-menu {
+        display: flex;
+
+        img {
+            display: flex;
+          
+        }
+    }
+
+
+    .form__area {
+        margin-left: 5%;
+    }
+
+
+  
+
+}
+
+
+
+@media (max-width: 500px) {
+
+    .container {
+        max-width: 400px ;
+        margin: 0 auto;
+      
+    }
+
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+
+
+        .header-nav {    
+            display: flex;
+         align-items: center;
+        justify-content: space-between;
+        gap: 470px;
+       
+       
+           
+
+       
+        }
+        .marks-nav-links {
+            display: none;
+        }
+
+
+        .nav-buttons {    
+            display: none;
+        }   
+
+
+    }
+    .header-menu {
+        display: flex;
+
+        img {
+            display: flex;
+          
+        }
+    }
+
+
+    .section-text {
+        display: flex;
+       align-items: center;
+       justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+      
+        h1 {
+            font-weight: 500;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 12px;    
+            text-align: center;
+        }
+            }    
+
+
+            .form__name {
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                flex-direction: column;
+                gap: 10px;
+                
+                input {
+                    width: 150%;
+                    height: 40px;
+                }
+
+
+            }
+
+            .btn {
+                width: 50%;
+            }
+    }
+
+
+
