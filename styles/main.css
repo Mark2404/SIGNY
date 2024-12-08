@@ -636,6 +636,35 @@ footer {
   gap: 100px;
 }
 
+/* Back to Top Button Styles */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.back-to-top svg {
+  width: 24px;
+  height: 24px;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 @media (max-width: 900px) {
   .tab-container {
     max-width: 900px;
