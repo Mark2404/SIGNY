@@ -459,12 +459,44 @@
         </div>
 
     </footer>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+        <svg width="52" height="60" viewBox="0 0 52 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="51.5" y="0.5" width="59" height="51" rx="25.5" transform="rotate(90 51.5 0.5)" stroke="white" />
+            <path d="M26 48L26 15" stroke="white" />
+            <path d="M26 15L19.5 21.5" stroke="white" />
+            <path d="M26 15L32.5 21.5" stroke="white" />
+        </svg>
+    </button>
+
 
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+
+        const backToTopButton = document.getElementById("backToTop");
+
+
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 200) {
+                backToTopButton.classList.add("show");
+            } else {
+                backToTopButton.classList.remove("show");
+            }
+        });
+
+
+        backToTopButton.addEventListener("click", () => {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        });
+
+    </script>
 </body>
 
 </html>
