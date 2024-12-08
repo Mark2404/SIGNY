@@ -52,7 +52,13 @@
     .form__area {
         margin-left: 5%;
     }
-
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+      }
 
   
 
@@ -147,6 +153,16 @@
             .btn {
                 width: 50%;
             }
+
+
+
+            footer {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 30px;
+              }
     }
 
 

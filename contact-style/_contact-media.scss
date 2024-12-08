@@ -41,6 +41,13 @@
     }
   }
 
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 
@@ -80,6 +87,15 @@
     cursor: pointer;
    opacity: 0.6;
     margin-top: 2%; 
+  }
+
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
   }
 }
 
