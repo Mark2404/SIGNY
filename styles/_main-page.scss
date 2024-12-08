@@ -176,6 +176,12 @@ nav {
 
 }
 
+button:hover {
+    background: linear-gradient(90deg, #1064e5 0%, #0a47a0 100%);
+    transition: background 0.3s ease;
+}
+
+
 .textning {
     font-family: var(--font-family);
     font-weight: 400;
@@ -819,16 +825,14 @@ footer {
     transition: transform 0.3s ease;
 }
 
-.accordion .accordion-item .accordion-header:hover {
-    background-color: #f9f9f9;
-}
+
 
 .accordion .accordion-item .accordion-body {
     font-size: 14px;
     color: #666;
     padding: 10px;
     display: none;
-    background-color: #f8f8f8;
+    background-color: transparent;
 }
 
 .accordion .accordion-item.open .accordion-header .icon {
@@ -868,6 +872,60 @@ footer {
 
 .accardion-item.active {
     background-color: transparent;
+}
+
+/* Стили для модального окна */
+.modal {
+    display: none;
+    /* Скрыто по умолчанию */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu-links li {
+    margin: 15px 0;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.menu-links a:hover {
+    color: #007bff;
 }
 
 
@@ -966,6 +1024,158 @@ footer {
 
 
 
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .mb-container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        .marks-nav-links {
+            display: none;
+        }
+
+        .nav-buttons {
+            display: none;
+        }
+    }
+
+    .mb-header-sec-text {
+        position: relative;
+
+        img {
+            position: absolute;
+            z-index: -1;
+            right: 20px;
+            width: 400px;
+            height: 400px;
+            right: 100px;
+
+        }
+
+    }
+
+    .mb-plus-sec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mb-screen-sec {
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mb-screen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+
+        img {
+
+            display: none;
+
+
+        }
+    }
+
+    .mb-screen-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+
+        button {
+            width: 100%;
+        }
+    }
+
+    .mb-prices {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mb-results-sec-text {
+        h1 {
+            font-size: 36px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+    }
+
+    .mb-freinds-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+    }
+
+    .mb-interests {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mb-video-sec {
+        a {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .mb-input {
+        div {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+
+    .mb-footer {
+        .col-row4 {
+            display: none;
+        }
+
+    }
 
 
 
