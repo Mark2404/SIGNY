@@ -601,7 +601,8 @@ nav {
     flex-direction: column;
     margin-top: 30px;
     margin-bottom: 50px;
-    padding: 20px 0;
+    // padding: 20px 0;
+    height: 500px;
 
     h1 {
         font-family: var(--font3);
@@ -750,4 +751,113 @@ footer {
             flex-direction: column;
         }
     }
+}
+
+.hamburger {
+    display: none;
+}
+
+.footer-div {
+    gap: 100px;
+}
+
+@media (max-width: 900px) {
+    .tab-container {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        .marks-nav-links {
+            display: none;
+        }
+
+        .nav-buttons {
+            display: none;
+        }
+    }
+
+    .tab-screen-sec {
+        overflow-x: hidden;
+    }
+
+    .tab-screen-text {
+        width: 50%;
+        margin-left: 40px;
+        margin-right: 30px;
+    }
+
+    .tab-screen {
+        width: 100%;
+        gap: 10px;
+        position: relative;
+
+        img {
+            width: 480px;
+            height: 280px;
+            position: absolute;
+            right: -150px;
+        }
+    }
+
+    .tab-prices {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .tab-freinds-content {
+        img {
+            width: 134px;
+            height: 80px;
+        }
+    }
+
+    .tab-interests {
+        .interest:nth-child(3) {
+            display: none;
+        }
+    }
+
+    .tab-footer {
+        display: flex;
+        gap: 30px;
+
+        .col-row1 {
+            p {
+                display: none;
+            }
+        }
+
+        .col-row2 {
+            p {
+                display: none;
+            }
+        }
+
+        .tab-footer-div {
+            flex-direction: column;
+            gap: 10px;
+
+            .col-row3 {
+                p {
+                    display: none;
+                }
+            }
+        }
+
+    }
+
+
+
+
+
+
+
 }
