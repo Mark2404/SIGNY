@@ -12,7 +12,19 @@
 
 <body>
     <header>
-        <nav id="nav" class="container header-nav tab-container">
+        <div class="modal" id="menu-modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <ul class="menu-links">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./pages/video.html">Video</a></li>
+                    <li><a href="./pages/contacts.html">Contact</a></li>
+                    <li><a href="./pages/faq.html">Faq</a></li>
+                    <li><a href="./pages/Blog.html">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav id="nav" class="container header-nav tab-container mb-container">
             <img src="./assets/main/icons/logo_signy.svg" alt="" />
             <img class="hamburger" src="./assets/main/icons/nav-gamburger.svg" alt="">
             <div class="marks-nav-links">
@@ -38,13 +50,13 @@
                 </select>
             </div>
         </nav>
-        <div class="container tab-container">
+        <div class="container tab-container mb-container">
 
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
                         <div class="pages-in-carusel">
-                            <div class="heder-sec-text">
+                            <div class="heder-sec-text mb-header-sec-text">
                                 <div class="_text">
                                     <h1>Цифровой документооборот <br>в три этапа:</h1>
                                     <div class="heder-sec-text-items-counter">
@@ -68,7 +80,7 @@
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <div class="pages-in-carusel">
-                            <div class="heder-sec-text">
+                            <div class="heder-sec-text mb-header-sec-text">
                                 <div class="_text">
                                     <h1>Цифровой документооборот <br>в три этапа:</h1>
                                     <div class="heder-sec-text-items-counter">
@@ -92,7 +104,7 @@
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <div class="pages-in-carusel">
-                            <div class="heder-sec-text">
+                            <div class="heder-sec-text mb-header-sec-text">
                                 <div class="_text">
                                     <h1>Цифровой документооборот <br>в три этапа:</h1>
                                     <div class="heder-sec-text-items-counter">
@@ -123,7 +135,8 @@
 
 
     </div>
-    <div id="plus-sec" class="container tab-container d-flex plus-sec justify-content-between  p-2 ">
+    <div id="plus-sec"
+        class="container mb-container tab-container d-flex plus-sec justify-content-between  p-2 mb-plus-sec">
 
         <div class="plus d-flex gap-2">
             <img src="./assets/main/imgs/global.svg" alt="">
@@ -154,10 +167,9 @@
 
     </div>
     <div class="screenshots-sec">
-        <div class="screen-sec tab-screen-sec container tab-container">
-            <div class="screen tab-screen">
-
-                <div class="screen-text tab-screen-text">
+        <div class="screen-sec tab-screen-sec container tab-container mb-container mb-screen-sec">
+            <div class="screen tab-screen mb-screen">
+                <div class="screen-text tab-screen-text mb-screen-text">
                     <h1>Комфорт в работе</h1>
                     <p>- Создавай документы по твоим личным привычным шаблонам. Это индивидуально!</p>
                     <p>- Настраивай порядок подписание документа, если вас несколько человек. Это ответственно!</p>
@@ -169,10 +181,10 @@
                 </div>
                 <img src="./assets/main/imgs/screen-1.svg" alt="">
             </div>
-            <div class="screen tab-screen">
+            <div class="screen tab-screen mb-screen">
 
                 <img class="" src="./assets/main/imgs/screen-1.svg" alt="">
-                <div class="screen-text tab-screen-text">
+                <div class="screen-text tab-screen-text mb-screen-text">
                     <h1>Наш продукт это:</h1>
                     <p>- Создавай документы по твоим личным привычным шаблонам. Это индивидуально!</p>
                     <p>- Настраивай порядок подписание документа, если вас несколько человек. Это ответственно!</p>
@@ -187,9 +199,9 @@
         </div>
 
     </div>
-    <div class="container tab-container price-sec">
+    <div class="container tab-container price-sec mb-container">
         <h1>Пакеты цифровых подписей </h1>
-        <div class="prices tab-prices">
+        <div class="prices tab-prices mb-prices">
             <div class="price">
                 <h5>Demo</h5>
                 <p>30 документів</p>
@@ -243,7 +255,7 @@
 
     </div>
     <div class="results-sec">
-        <div class="results-sec-text container tab-container">
+        <div class="results-sec-text container tab-container mb-container mb-results-sec-text">
             <h1>5 820 125 114 </h1>
             <h2>подписано документов</h2>
             <p>Наша компания уже более 30 лет создает удобные решения для бизнеса любого размера. Мы гордимся Signy как
@@ -265,28 +277,46 @@
             </div>
             <div class="carousel-inner tab-carusel-inner">
                 <div class="carousel-item active" data-bs-interval="3000">
-                    <div class="freinds-content tab-freinds-content">
-                        <img src="./assets/main/icons/fr-1.svg" alt="">
-                        <img src="./assets/main/icons/fr-2.svg" alt="">
-                        <img src="./assets/main/icons/fr-4.svg" alt="">
-                        <img src="./assets/main/icons/fr-5.svg" alt="">
+                    <div class="freinds-content tab-freinds-content mb-freinds-content">
+                        <div>
+
+                            <img src="./assets/main/icons/fr-1.svg" alt="">
+                            <img src="./assets/main/icons/fr-2.svg" alt="">
+                        </div>
+                        <div>
+
+                            <img src="./assets/main/icons/fr-4.svg" alt="">
+                            <img src="./assets/main/icons/fr-5.svg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <div class="freinds-content tab-freinds-content">
-                        <img src="./assets/main/icons/fr-1.svg" alt="">
-                        <img src="./assets/main/icons/fr-2.svg" alt="">
-                        <img src="./assets/main/icons/fr-4.svg" alt="">
-                        <img src="./assets/main/icons/fr-5.svg" alt="">
+                    <div class="freinds-content tab-freinds-content mb-freinds-content ">
+                        <div>
+
+                            <img src="./assets/main/icons/fr-1.svg" alt="">
+                            <img src="./assets/main/icons/fr-2.svg" alt="">
+                        </div>
+                        <div>
+
+                            <img src="./assets/main/icons/fr-4.svg" alt="">
+                            <img src="./assets/main/icons/fr-5.svg" alt="">
+                        </div>
                     </div>
 
                 </div>
                 <div class="carousel-item" data-bs-interval="3000">
-                    <div class="freinds-content tab-freinds-content">
-                        <img src="./assets/main/icons/fr-1.svg" alt="">
-                        <img src="./assets/main/icons/fr-2.svg" alt="">
-                        <img src="./assets/main/icons/fr-4.svg" alt="">
-                        <img src="./assets/main/icons/fr-5.svg" alt="">
+                    <div class="freinds-content tab-freinds-content mb-freinds-content">
+                        <div>
+
+                            <img src="./assets/main/icons/fr-1.svg" alt="">
+                            <img src="./assets/main/icons/fr-2.svg" alt="">
+                        </div>
+                        <div>
+
+                            <img src="./assets/main/icons/fr-4.svg" alt="">
+                            <img src="./assets/main/icons/fr-5.svg" alt="">
+                        </div>
                     </div>
 
                 </div>
@@ -296,11 +326,11 @@
 
     </div>
     <div class="interesting-sec">
-        <div class="interest container tab-container">
+        <div class="interest container tab-container mb-container">
             <h1>
                 Интересно пишем про
             </h1>
-            <div class="interests tab-interests">
+            <div class="interests tab-interests mb-interests">
 
                 <div class="interest">
                     <div class="interest-img">
@@ -339,7 +369,7 @@
         </div>
 
     </div>
-    <div class="Video-sec">
+    <div class="Video-sec mb-container mb-video-sec">
         <h1>Познакомимся в живую? </h1>
         <a href="./pages/video.html">
             <img src="./assets/main/imgs/video.svg" alt="">
@@ -403,10 +433,10 @@
         </div>
 
     </div>
-    <div class="input-sec container tab-container">
+    <div class="input-sec container tab-container mb-container">
         <h1>Подпишись на наши новости!</h1>
         <p>Введи свой электронный адрес и будь в курсе всех обновлений</p>
-        <div class="input">
+        <div class="input mb-input">
             <div>
                 <input type="text">
                 <button>отправить</button>
@@ -416,7 +446,7 @@
 
     </div>
     <footer>
-        <div class="container tab-container tab-footer footer">
+        <div class="container tab-container tab-footer footer mb-container mb-footer">
             <div class="col-row1">
                 <img src="./assets/main/icons/footer-logo.svg" alt="">
                 <p>© 2020 Signy</p>
@@ -526,6 +556,30 @@
                 // Переключаем активный класс для текущего элемента
                 item.classList.toggle('active');
             });
+        });
+
+    </script>
+    <script>
+        // Получаем элементы
+        const hamburger = document.querySelector('.hamburger');
+        const modal = document.getElementById('menu-modal');
+        const closeButton = modal.querySelector('.close-button');
+
+        // Открытие модального окна
+        hamburger.addEventListener('click', () => {
+            modal.style.display = 'block';
+        });
+
+        // Закрытие модального окна
+        closeButton.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Закрытие модального окна при клике вне области контента
+        window.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
         });
 
     </script>
