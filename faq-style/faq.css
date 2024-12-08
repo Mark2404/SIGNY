@@ -82,6 +82,13 @@ nav .dropdown {
   cursor: pointer;
 }
 
+.header-menu {
+  display: none;
+}
+.header-menu img {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -355,6 +362,100 @@ footer {
   flex-direction: column;
 }
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  header .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 510px;
+  }
+  header .marks-nav-links {
+    display: none;
+  }
+  header .nav-buttons {
+    display: none;
+  }
+  .header-menu {
+    display: flex;
+  }
+  .header-menu img {
+    display: flex;
+  }
+  .form__area {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+  }
+  header .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 470px;
+  }
+  header .marks-nav-links {
+    display: none;
+  }
+  header .nav-buttons {
+    display: none;
+  }
+  .header-menu {
+    display: flex;
+  }
+  .header-menu img {
+    display: flex;
+  }
+  .section-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .section-text h1 {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+  }
+  .section-text p {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+  }
+  .form__name {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form__name input {
+    width: 150%;
+    height: 40px;
+  }
+  .btn {
+    width: 50%;
+  }
+}
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
