@@ -2,162 +2,208 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../blog-page/blog.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../blog-page/blog.css">
 </head>
 
 <body>
-    <header>
-        <nav id="nav" class="container header-nav">
-          <img src="../video-img/logo_signy.svg" alt="" />
-          <div class="marks-nav-links">
-            <select class="dropdown" id="dropdown" name="options">
-              <option value="" disabled selected>0 800 750 643</option>
-              <option value="./pages/Blog.html">Blog</option>
-              <option value="page2.html">Video</option>
-            </select>
-            <select class="dropdown" id="dropdown" name="options">
-              <option value="" disabled selected>ПРО НАС</option>
-              <option value="./pages/Blog.html">Blog</option>
-              <option value="page2.html">Video</option>
-            </select>
-            <a href="#">ЦЕНЫ</a>
-            <a href="#">КОНТАКТЫ</a>
-          </div>
-          <div class="nav-buttons">
-            <button>Вход</button>
-            <button>регистрация</button>
-            <select class="dropdown" id="dropdown" name="options">
-              <option value="" disabled selected>Рус</option>
-              <option value="./pages/Blog.html">uzb yoq🥲</option>
-            </select>
-          </div>
-  
-          <div class="header-menu">
-            <img src="../video-img/header-menu.png" alt="" />
-          </div>
-        </nav>
-      </header>
-      <div class="middle">
-        <div class="menu">
-
-            <div class="breadcrumb">
-                <a href="#">Signy</a> / <a href="#">Блог</a> / <span>Название статьи</span>
-              </div>
-              <h1 class="article-title">Название статьи</h1>
-              <div class="meta-info">
-                <span class="date">28.05.2020</span>
-                <div class="tags">
-                  <div class="tag">МНОГО ТЕГОВ</div>
-                  <div class="tag">ТЕГИ</div>
-                  <div class="tag">МНОГО ТЕГОВ</div>
-                </div>
-              </div>
-        </div>
-        <div class="text">
-            <div class="text1">
-            <p>Luxury is something everyone deserves from time to time. Such an indulgence can make a vacation a truly rejuvenating experience. One of the best ways to get the luxury of the rich and famous to fit into your budget can be yours through yacht charter companies. These companies specialize in creating custom sailing vacations that redefine travel. </p>
-            <p>Planning Your Luxury Trip </p>
-            <p>With your budget in mind, it is easy to plan a chartered yacht vacation. Companies often have a fleet of sailing vessels that can accommodate parties of various sizes. You may want to make it a more intimate trip with only close family. There are charters that can be rented for as few as two people. These include either a sailboat or motorboat and can come with or without a crew and captain to sail the ship for you. If you choose not to hire a crew, you will have to show that you are knowledgeable of sailing and can handle the ship competently.</p>
-            <p>The next part of planning is to determine your starting and ending ports. This could be a place close to home and sail in one area or start and finish at two different ports. Generally, starting and stopping in the same port will save you money and is usually more convenient. You can also fly to a destination far from home and then sail another exotic sea. There are luxury yacht charter companies that cruise the Caribbean and Mediterranean seas or around Alaska, the Panama Canal, or anyplace you can imagine.</p>
-            <p>Determining the type of cruise is another aspect of planning a chartered yachting trip. You can have as little or many crew members as the ship will hold. A captain takes all the worries out of navigating and onboard housekeeping services make it a real vacation that rivals the finest hotel services. You can also choose to have a chef and service crew as part of your vacation package.</p>
-            <img style="margin: 0 50px; width: 80%;" src="../blog-page/img/Mask.svg" alt="">
-            <p>Destinations & Ports of important Charter Companies  One of the greatest benefits of choosing a chartered cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want to add or subtract stops along the way.</p>
-            </div>
-            <div class="text2">
-                <img style="margin: 0 50px; width: 80%;" src="../blog-page/img/Mask Group.svg" alt="">
-                <p>Destinations & Ports of important Charter Companies  One of the greatest benefits of choosing a chartered cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want to add or subtract stops along the way.</p>
-                <p>Your yacht is your hotel that travels with you. There is only one flight and one hotel to book! Then you take all of your luggage and unpack it just once to enjoy several days of new destinations.</p>
-                <p>If you have never experienced cruising before, a chartered experience is a great way to get your feet wet. It is different from cruise lines with thousands of guests because the people on your ship will be your friends and family. The personal touches of a chartered trip will help you develop your love for the sea with all the best benefits of commercial cruises.</p>
-                <p>If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your “chores” for keeping the ship in top shape and on course. </p>
-                <p>Destinations & Ports of important Charter Companies  One of the greatest benefits of choosing a chartered cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want to add or subtract stops along the way.</p>
-                <p>If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your “chores” for keeping the ship in top shape and on course. </p>
-                <p>Destinations & Ports of important Charter Companies  One of the greatest benefits of choosing a chartered cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want to add or subtract stops along the way.</p>
-            
-            </div>
-        </div>
+  <header>
+    <nav id="nav" class="container header-nav">
+      <a href="../index.html">
+        <img src="../faq-img/logo_signy.svg" alt="" />
+      </a>
+      <div class="marks-nav-links">
+        <select class="dropdown" id="dropdown1" name="options" onchange="navigate(this)">
+          <option value="" selected>0 800 750 643</option>
+          <option value=" ../pages/Blog.html">Blog</option>
+          <option value="../pages/video.html">Video</option>
+        </select>
+        <select class="dropdown" id="dropdown2" name="options" onchange="navigate(this)">
+          <option value="../index.html" selected>ПРО НАС</option>
+          <option value=" ../pages/Blog.html">Blog</option>
+          <option value="../pages/faq.html">Faq</option>
+        </select>
+        <a href="#">ЦЕНЫ</a>
+        <a href="../pages/contacts.html">КОНТАКТЫ</a>
       </div>
-      <div class="link">
-       <div class="links">
-    <div class="share">
-      <h1 style="margin-bottom: 30px;">Поделитесь:</h2>
-      <div  class="share-icons">
-        <a href="#" style="margin-right: 50px;"><img src="../blog-page/icon/twitter (2).svg" alt=""></a>
-        <a href="#" style="position: relative; bottom: 5px;" ><img src="../blog-page/icon/ins.svg" alt=""></a>
-        <a href="#" style="margin-left: 50px;"><img src="../blog-page/icon/google.svg" alt=""></a>
-        <a href="#" style="margin-left: 50px;"><img src="../blog-page/icon/facebook.svg" alt=""></a>
+      <div class="nav-buttons">
+        <button>Вход</button>
+        <button>регистрация</button>
+        <select class="dropdown" id="dropdown" name="options">
+          <option value="" disabled selected>Рус</option>
+          <option value="./pages/Blog.html">uzb yoq🥲</option>
+        </select>
+      </div>
+
+      <div class="header-menu">
+        <img src="../video-img/header-menu.png" alt="" />
+      </div>
+    </nav>
+  </header>
+  <div class="middle">
+    <div class="menu">
+
+      <div class="breadcrumb">
+        <a href="#">Signy</a> / <a href="#">Блог</a> / <span>Название статьи</span>
+      </div>
+      <h1 class="article-title">Название статьи</h1>
+      <div class="meta-info">
+        <span class="date">28.05.2020</span>
+        <div class="tags">
+          <div class="tag">МНОГО ТЕГОВ</div>
+          <div class="tag">ТЕГИ</div>
+          <div class="tag">МНОГО ТЕГОВ</div>
+        </div>
       </div>
     </div>
-    <div class="navigation">
-      <div class="nav-item prev">
-        <h2>Название статьи в два ряда</h3>
-        <p>Предыдущая статья</p>
-       
+    <div class="text">
+      <div class="text1">
+        <p>Luxury is something everyone deserves from time to time. Such an indulgence can make a vacation a truly
+          rejuvenating experience. One of the best ways to get the luxury of the rich and famous to fit into your budget
+          can be yours through yacht charter companies. These companies specialize in creating custom sailing vacations
+          that redefine travel. </p>
+        <p>Planning Your Luxury Trip </p>
+        <p>With your budget in mind, it is easy to plan a chartered yacht vacation. Companies often have a fleet of
+          sailing vessels that can accommodate parties of various sizes. You may want to make it a more intimate trip
+          with only close family. There are charters that can be rented for as few as two people. These include either a
+          sailboat or motorboat and can come with or without a crew and captain to sail the ship for you. If you choose
+          not to hire a crew, you will have to show that you are knowledgeable of sailing and can handle the ship
+          competently.</p>
+        <p>The next part of planning is to determine your starting and ending ports. This could be a place close to home
+          and sail in one area or start and finish at two different ports. Generally, starting and stopping in the same
+          port will save you money and is usually more convenient. You can also fly to a destination far from home and
+          then sail another exotic sea. There are luxury yacht charter companies that cruise the Caribbean and
+          Mediterranean seas or around Alaska, the Panama Canal, or anyplace you can imagine.</p>
+        <p>Determining the type of cruise is another aspect of planning a chartered yachting trip. You can have as
+          little or many crew members as the ship will hold. A captain takes all the worries out of navigating and
+          onboard housekeeping services make it a real vacation that rivals the finest hotel services. You can also
+          choose to have a chef and service crew as part of your vacation package.</p>
+        <img style="margin: 0 50px; width: 80%;" src="../blog-page/img/Mask.svg" alt="">
+        <p>Destinations & Ports of important Charter Companies One of the greatest benefits of choosing a chartered
+          cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by
+          weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want
+          to add or subtract stops along the way.</p>
       </div>
-      <div class="nav-item next">
-        <h2>Название статьи в два ряда</h3>
-        <p>Следующая статья</p>
-        
+      <div class="text2">
+        <img style="margin: 0 50px; width: 80%;" src="../blog-page/img/Mask Group.svg" alt="">
+        <p>Destinations & Ports of important Charter Companies One of the greatest benefits of choosing a chartered
+          cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by
+          weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want
+          to add or subtract stops along the way.</p>
+        <p>Your yacht is your hotel that travels with you. There is only one flight and one hotel to book! Then you take
+          all of your luggage and unpack it just once to enjoy several days of new destinations.</p>
+        <p>If you have never experienced cruising before, a chartered experience is a great way to get your feet wet. It
+          is different from cruise lines with thousands of guests because the people on your ship will be your friends
+          and family. The personal touches of a chartered trip will help you develop your love for the sea with all the
+          best benefits of commercial cruises.</p>
+        <p>If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can
+          charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your
+          “chores” for keeping the ship in top shape and on course. </p>
+        <p>Destinations & Ports of important Charter Companies One of the greatest benefits of choosing a chartered
+          cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by
+          weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want
+          to add or subtract stops along the way.</p>
+        <p>If you like the idea of knowing what it is really like to sail, but don’t want to risk safety, you can
+          charter a sailing cruise that puts you in the role of deck hand. A competent crew will direct you as to your
+          “chores” for keeping the ship in top shape and on course. </p>
+        <p>Destinations & Ports of important Charter Companies One of the greatest benefits of choosing a chartered
+          cruise as a vacation is the choice. You will most likely have a rough itinerary and that can be affected by
+          weather. However, you are flexible in deciding how long you want to stay in a particular port and if you want
+          to add or subtract stops along the way.</p>
+
       </div>
     </div>
   </div>
+  <div class="link">
+    <div class="links">
+      <div class="share">
+        <h1 style="margin-bottom: 30px;">Поделитесь:</h2>
+          <div class="share-icons">
+            <a href="#" style="margin-right: 50px;"><img src="../blog-page/icon/twitter (2).svg" alt=""></a>
+            <a href="#" style="position: relative; bottom: 5px;"><img src="../blog-page/icon/ins.svg" alt=""></a>
+            <a href="#" style="margin-left: 50px;"><img src="../blog-page/icon/google.svg" alt=""></a>
+            <a href="#" style="margin-left: 50px;"><img src="../blog-page/icon/facebook.svg" alt=""></a>
+          </div>
+      </div>
+      <div class="navigation">
+        <div class="nav-item prev">
+          <h2>Название статьи в два ряда</h3>
+            <p>Предыдущая статья</p>
+
+        </div>
+        <div class="nav-item next">
+          <h2>Название статьи в два ряда</h3>
+            <p>Следующая статья</p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div>
+    <div class="input-sec container tab-container">
+      <h1>Подпишись на наши новости!</h1>
+      <p>Введи свой электронный адрес и будь в курсе всех обновлений</p>
+      <div class="input">
+        <div>
+          <input type="text">
+          <button>отправить</button>
+        </div>
 
       </div>
-    <div >
-        <div class="input-sec container tab-container">
-            <h1>Подпишись на наши новости!</h1>
-            <p>Введи свой электронный адрес и будь в курсе всех обновлений</p>
-            <div class="input">
-                <div>
-                    <input type="text">
-                    <button>отправить</button>
-                </div>
-    
-            </div>
-    
-        </div>
+
     </div>
-    <footer>
-        <div class="container footer">
-          <div class="col-row1">
-            <img src="../faq-img/footer-logo.png" alt="" />
-            <p>© 2020 Signy</p>
-          </div>
-          <div class="col-row2">
-            <div class="d-flex flex-column">
-              <a href="#">Про нас</a> <br />
-              <a href="#">Цены</a>
-            </div>
-            <div>
-              <a href="#">Вход</a> <br />
-              <a href="#">Регистрируйся</a>
-            </div>
-            <p>Договір оферти</p>
-          </div>
-          <div class="col-row3">
-            <div>
-              <a href="#">Блог</a> <br />
-              <a href="#">КОНТАКТЫ</a>
-            </div>
-            <p>Безпекасервісу</p>
-          </div>
-          <div class="social-link">
-            <a href="mailto:example@mail.com">infosmartsign@smarttender.biz</a>
-            <br />
-            <a href="https://www.facebook.com/">Facebook</a>
-          </div>
-          <div class="col-row4">
-            <address>Адреса: Киев, ул. Пушкинская 10</address>
-            <div>
-              <a href="#">0 800 750643</a>
-              <a href="tel: +380991234567">+38 (099) 123-45-67</a>
-              <a href="tel: +380991234567">+38 (099) 123-45-67</a>
-            </div>
-          </div>
+  </div>
+  <footer>
+    <div class="container footer">
+      <div class="col-row1">
+        <img src="../faq-img/footer-logo.png" alt="" />
+        <p>© 2020 Signy</p>
+      </div>
+      <div class="col-row2">
+        <div class="d-flex flex-column">
+          <a href="#">Про нас</a> <br />
+          <a href="#">Цены</a>
         </div>
-      </footer>
+        <div>
+          <a href="#">Вход</a> <br />
+          <a href="#">Регистрируйся</a>
+        </div>
+        <p>Договір оферти</p>
+      </div>
+      <div class="col-row3">
+        <div>
+          <a href="#">Блог</a> <br />
+          <a href="#">КОНТАКТЫ</a>
+        </div>
+        <p>Безпекасервісу</p>
+      </div>
+      <div class="social-link">
+        <a href="mailto:example@mail.com">infosmartsign@smarttender.biz</a>
+        <br />
+        <a href="https://www.facebook.com/">Facebook</a>
+      </div>
+      <div class="col-row4">
+        <address>Адреса: Киев, ул. Пушкинская 10</address>
+        <div>
+          <a href="#">0 800 750643</a>
+          <a href="tel: +380991234567">+38 (099) 123-45-67</a>
+          <a href="tel: +380991234567">+38 (099) 123-45-67</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function navigate(dropdown) {
+      const url = dropdown.value;
+      if (url) {
+        window.location.href = url;
+      }
+    }
+  </script>
 </body>
+
 
 </html>
